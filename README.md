@@ -4,7 +4,7 @@
 
 * Hands-On AWS Lab Environment: https://dashboard.eventengine.run/login
 
-* Event Hash: `b00a-1dc2c945d4-c1`
+* Event Hash: ``
 
 * Tutorial / Documentation: https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/
 
