@@ -27,6 +27,7 @@
     }
     </style>
     <script>
+        var api_invoke_url = "INSERT_API_INVOKE_URL"
         // define the callAPI function that takes a first name and last name as parameters
         var callAPI = (firstName,lastName) => {
             // instantiate a headers object
@@ -43,7 +44,7 @@
                 redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("INSERT API GATEWAY INVOKE URL", requestOptions)
+            fetch(api_invoke_url, requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
@@ -51,7 +52,7 @@
 
         function callGetAPI() {
             function fetchData() {
-                    fetch('INSERT API GATEWAY INVOKE URL')
+                    fetch(api_invoke_url)
                     .then(response => response.json())
                     .then(data => renderItems(data.body))
                 }
