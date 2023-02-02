@@ -1,0 +1,6 @@
+API Gateway / Simple Web Application Workshop
+Parameters to keep handy:
+
+Website URL: 
+API Invoke URL: 
+DynamoDB Table ARN: 
